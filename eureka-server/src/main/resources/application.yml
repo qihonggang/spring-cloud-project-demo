@@ -9,4 +9,4 @@ eureka:
     # ÊÇ·ñ¼ìË÷·şÎñ
     fetch-registry: false
     service-url:
-      default-zone:
+      default-zone: http://${eureka.instance.hostname}:${server.port}/eureka/
