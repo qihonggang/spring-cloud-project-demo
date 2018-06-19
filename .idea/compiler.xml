@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
         <module name="eureka-server (1)" />
+        <module name="service-feign" />
         <module name="service-hi" />
         <module name="service-ribbon" />
         <module name="spring-cloud-demo" />
@@ -16,6 +17,7 @@
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.8" />
       <module name="eureka-server (1)" target="1.8" />
+      <module name="service-feign" target="1.8" />
       <module name="service-hi" target="1.8" />
       <module name="service-ribbon" target="1.8" />
       <module name="spring-cloud-demo" target="1.5" />
