@@ -11,5 +11,6 @@ public interface HelloService {
      * @return 服务内容
      */
     String hiService(String name);
+    String hiError(String name);
 
 }
